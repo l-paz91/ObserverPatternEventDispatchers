@@ -6,6 +6,7 @@
 
 #include "Keyboard.h"
 #include "Event.h"
+#include "EventDispatcher.h"
 
 // -----------------------------------------------------------------------------
 
