@@ -15,7 +15,7 @@ int main()
 {
 	EventDispatcher mainDispatcher;
 
-	Button button(&mainDispatcher);
+	Keyboard keyboard(&mainDispatcher);
 
 	SpinningCube spinningCube(&mainDispatcher);
 	ColourChangingCube colourChangingCube(&mainDispatcher);
@@ -23,7 +23,8 @@ int main()
 
 	while (true)
 	{
-		button.buttonPressed();
+		keyboard.keyPressed();
+
 	}
 
 	std::cout << "\nPress any key to continue...";
